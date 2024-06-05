@@ -1,9 +1,234 @@
 {
     "resources": [
         {
+            "name": "Início",
+            "path": "Início",
+            "url": "/home"
+        },
+        {
+            "name": "Métricas",
+            "path": "Análises / Métricas",
+            "url": "/dashboard"
+        },
+        {
+            "name": "Relatórios",
+            "path": "Análises / Relatórios",
+            "url": "/reports"
+        },
+        {
+            "name": "Pedidos",
+            "path": "Vendas / Pedidos",
+            "url": "/orders"
+        },
+        {
+            "name": "Carrinhos abandonados",
+            "path": "Vendas / Carrinhos abandonados",
+            "url": "/carts"
+        },
+        {
+            "name": "Produtos",
+            "path": "Produtos / Ver todos",
+            "url": "/catalog/products"
+        },
+        {
+            "name": "Novo produto",
+            "path": "Produtos / Novo produto",
+            "url": "/catalog/product/create"
+        },
+        {
+            "name": "Avaliações",
+            "path": "Produtos / Avaliações",
+            "url": "/catalog/reviews"
+        },
+        {
+            "name": "Botões de compra",
+            "path": "Produtos / Botões de compra",
+            "url": "/catalog/buy-buttons"
+        },
+        {
+            "name": "Categorias",
+            "path": "Produtos / Categorias",
+            "url": "/catalog/categories"
+        },
+        {
+            "name": "Coleções",
+            "path": "Produtos / Coleções",
+            "url": "/catalog/collections"
+        },
+        {
+            "name": "Customizações",
+            "path": "Produtos / Customizações",
+            "url": "/catalog/customizations"
+        },
+        {
+            "name": "Filtros",
+            "path": "Produtos / Filtros",
+            "url": "/catalog/filters"
+        },
+        {
+            "name": "Grupos",
+            "path": "Produtos / Grupos",
+            "url": "/catalog/groups"
+        },
+        {
+            "name": "Kits",
+            "path": "Produtos / Kits",
+            "url": "/catalog/kits"
+        },
+        {
+            "name": "Marcas",
+            "path": "Produtos / Marcas",
+            "url": "/catalog/brands"
+        },
+        {
+            "name": "Dúvidas",
+            "path": "Produtos / Dúvidas",
+            "url": "/catalog/comments"
+        },
+        {
+            "name": "Selos",
+            "path": "Produtos / Selos",
+            "url": "/catalog/flags"
+        },
+        {
+            "name": "Variações",
+            "path": "Produtos / Variações",
+            "url": "/catalog/variations"
+        },
+        {
             "name": "Clientes",
-            "path": "Clientes",
+            "path": "Clientes / Ver todos",
             "url": "/customers"
+        },
+        {
+            "name": "Grupos",
+            "path": "Clientes / Grupos",
+            "url": "/customers/clusters"
+        },
+        {
+            "name": "Leads",
+            "path": "Clientes / Leads",
+            "url": "/leads"
+        },
+        {
+            "name": "Cupons",
+            "path": "Marketing / Cupons",
+            "url": "/marketing/promocodes"
+        },
+        {
+            "name": "Order bumps",
+            "path": "Marketing / Order bumps",
+            "url": "/marketing/order-bumps"
+        },
+        {
+            "name": "Compre junto",
+            "path": "Marketing / Compre junto",
+            "url": "/marketing/combos"
+        },
+        {
+            "name": "Faixas de desconto",
+            "path": "Marketing / Faixas de desconto",
+            "url": "/marketing/progressive-discounts"
+        },
+        {
+            "name": "Pixels",
+            "path": "Marketing / Pixels",
+            "url": "/marketing/pixels"
+        },
+        {
+            "name": "Promoções",
+            "path": "Marketing / Promoções",
+            "url": "/marketing/promotions"
+        },
+        {
+            "name": "Upsell",
+            "path": "Marketing / Upsell",
+            "url": "/marketing/upsell"
+        },
+        {
+            "name": "Checkout",
+            "path": "Checkout / Personalizar",
+            "url": "/checkout/personalize"
+        },
+        {
+            "name": "Provas sociais",
+            "path": "Checkout / Provas sociais",
+            "url": "/checkout/testimonies"
+        },
+        {
+            "name": "Pagamento",
+            "path": "Checkout / Pagamento",
+            "url": "/checkout/payment/configuration"
+        },
+        {
+            "name": "Regras e informações",
+            "path": "Checkout / Regras e informações",
+            "url": "/checkout/payment/rules"
+        },
+        {
+            "name": "Descontos",
+            "path": "Checkout / Descontos",
+            "url": "/checkout/discounts"
+        },
+        {
+            "name": "Redirecionamento",
+            "path": "Checkout / Redirecionamento",
+            "url": "/checkout/redirecting"
+        },
+        {
+            "name": "Scripts e Meta Tags",
+            "path": "Checkout / Scripts e Meta Tags",
+            "url": "/checkout/scripts_metatags"
+        },
+        {
+            "name": "Apps",
+            "path": "Apps",
+            "url": "/config/services"
+        },
+        {
+            "name": "Yampi Pay",
+            "path": "Yampi Pay",
+            "url": "/yampi-pay"
+        },
+        {
+            "name": "Temas",
+            "path": "Loja virtual / Temas",
+            "url": "/store/themes"
+        },
+        {
+            "name": "Banners",
+            "path": "Loja virtual / Banners",
+            "url": "/store/banners"
+        },
+        {
+            "name": "Páginas informativas",
+            "path": "Loja virtual / Páginas informativas",
+            "url": "/store/pages"
+        },
+        {
+            "name": "Meta tags",
+            "path": "Loja virtual / Meta tags",
+            "url": "/store/metatags"
+        },
+        {
+            "name": "Anúncios",
+            "path": "Marketplaces / Anúncios",
+            "url": "/marketplaces/ids"
+        },
+        {
+            "name": "Contas",
+            "path": "Marketplaces / Contas",
+            "url": "/marketplaces/accounts"
+        },
+        {
+            "name": "Relatório de erros",
+            "path": "Marketplaces / Relatório de erros",
+            "url": "/marketplaces/errors"
+        },
+        {
+            "name": "Configurações",
+            "path": "Configurações",
+            "url": "/config"
         }
     ]
 }

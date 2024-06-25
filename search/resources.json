@@ -37,12 +37,6 @@
             "access": "products.view"
         },
         {
-            "name": "Novo produto",
-            "path": "Produtos / Novo produto",
-            "url": "/catalog/product/create",
-            "access": ""
-        },
-        {
             "name": "Avaliações",
             "path": "Produtos / Avaliações",
             "url": "/catalog/reviews",

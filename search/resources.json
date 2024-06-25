@@ -49,6 +49,12 @@
             "access": "reviews.view"
         },
         {
+            "name": "Avise-me",
+            "path": "Produtos / Avise-me",
+            "url": "/catalog/stock-notifications",
+            "access": "stockNotifications.view"
+        },
+        {
             "name": "Botões de compra",
             "path": "Produtos / Botões de compra",
             "url": "/catalog/buy-buttons",
@@ -65,6 +71,12 @@
             "path": "Produtos / Coleções",
             "url": "/catalog/collections",
             "access": "collections.view"
+        },
+        {
+            "name": "Conjuntos",
+            "path": "Produtos / Conjuntos",
+            "url": "/catalog/looks",
+            "access": "looks.view"
         },
         {
             "name": "Customizações",
